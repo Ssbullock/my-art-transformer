@@ -36,7 +36,7 @@ function App() {
     'Expressionism'
   ];
 
-  const backendUrl = 'http://localhost:5001'; // Change to your deployed URL
+  const backendUrl = 'https://my-art-transformer.onrender.com'; // Change to your deployed URL
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
